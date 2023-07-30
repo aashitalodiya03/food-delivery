@@ -1,0 +1,110 @@
+body {
+    font-family: 'Unbounded', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(image4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left : 60px;
+    top : 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+
+}
+.left img{
+   width: 120px; 
+   height: 75px;
+   filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.mid{
+    display: block;
+    width: 48%;
+    margin:15px auto;
+    /* border: 2px solid white; */
+    font-size: 10px;
+
+}
+
+.right{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right : 34px;
+    top : 20px;
+    display: inline-block;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Unbounded', cursive;
+
+}
+.btn:hover{
+    background-color: rgb(100, 97, 97);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    color: white;
+    display:  inline-block;
+    font-size: 16px;
+    
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: red;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 45px;
+    width: 33%;
+    border-radius: 28px;
+    font-size: 10px;
+    
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 298px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px auto;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Unbounded', cursive;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 298px;
+    margin: 9px auto;
+}
